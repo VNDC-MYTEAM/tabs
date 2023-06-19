@@ -46,13 +46,11 @@
   "dependencies": {
     "hoist-non-react-statics": "^3.3.0",
     "react-lifecycles-compat": "^3.0.4",
-    "react-native-safe-area-view": "^0.14.6",
-    "react-native-tab-view": "^2.11.0"
+    "react-native-safe-area-view": "^0.14.6"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^7.5.0",
     "@expo/vector-icons": "^10.0.1",
-    "@react-native-community/bob": "^0.6.1",
     "@types/hoist-non-react-statics": "^3.3.1",
     "@types/react": "^16.8.17",
     "@types/react-native": "^0.57.57",
@@ -74,7 +72,6 @@
     "react-native": "~0.57.1",
     "react-native-gesture-handler": "^1.4.1",
     "react-native-reanimated": "^1.2.0",
-    "react-navigation": "^4.0.7",
     "react-test-renderer": "16.5.0",
     "release-it": "^10.3.1",
     "typescript": "^3.5.2"
@@ -84,14 +81,7 @@
     "react-native": "*",
     "react-native-gesture-handler": "^1.0.0",
     "react-native-reanimated": "^1.0.0-alpha",
-    "react-native-screens": "^1.0.0 || ^1.0.0-alpha",
-    "react-navigation": "^4.0.7"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "yarn lint && yarn flow check"
-    }
+    "react-native-screens": "^1.0.0 || ^1.0.0-alpha"
   },
   "jest": {
     "preset": "react-native",
@@ -104,15 +94,6 @@
     ],
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
-    ]
-  },
-  "@react-native-community/bob": {
-    "source": "src",
-    "output": "lib",
-    "targets": [
-      "commonjs",
-      "module",
-      "typescript"
     ]
   }
 }
