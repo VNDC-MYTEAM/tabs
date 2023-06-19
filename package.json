@@ -2,20 +2,13 @@
   "name": "react-navigation-tabs",
   "version": "2.11.2",
   "description": "Tab Navigation components for React Navigation",
-  "main": "lib/commonjs/index.js",
-  "module": "lib/module/index.js",
-  "react-native": "lib/module/index.js",
-  "types": "lib/typescript/src/index.d.ts",
+  "main": "src/index.tsx",
   "files": [
     "src",
     "lib"
   ],
   "scripts": {
 
-  },
-  "sideEffects": false,
-  "publishConfig": {
-    "access": "public"
   },
   "keywords": [
     "react-native-component",
